@@ -6,3 +6,5 @@ When I run single docker container at swarm cluster - all it is ok. But when I s
 
 ### My container with shiny-server is ![here](https://github.com/kuzmenkov111/shinyserv) and nginx container is ![here](https://github.com/kuzmenkov111/reverseproxy)
 All containers has already bilded on DockerHub. You may use compose file from this repo (but mount volume with test app).
+Command for start cluster: docker stack deploy --compose-file docker-compose.yml shiny
+
